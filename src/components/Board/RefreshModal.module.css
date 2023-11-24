@@ -1,0 +1,36 @@
+.refreshContainer {
+    padding: 2.4rem 3.6rem;
+  }
+  
+  .head {
+    font-size: 1.5rem;
+    letter-spacing: 1.2px;
+    color: #f2b237;
+    text-transform: uppercase;
+    font-weight: 900;
+  }
+  
+  .buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 3.2rem;
+  }
+  .quit,
+  .playAgain {
+    width: 7rem;
+    height: 2rem;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: 700;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #f2b237;
+    color: #192a32;
+  }
+  
+  .playAgain {
+    background-color: #31c4be;
+    color: #192a32;
+  }

@@ -1,0 +1,21 @@
+.play {
+	position: relative;
+	width: 27rem;
+	height: 48rem;
+	display: flex;
+	flex-direction: column;
+	background-color: rgba(25, 42, 50, 1);
+	border-radius: 2.5rem;
+	padding: 0 1.8rem;
+}
+
+.signs {
+	display: flex;
+	gap: 0.8rem;
+	justify-content: center;
+	margin-top: 12rem;
+}
+
+.signs > img {
+	width: 2rem;
+}

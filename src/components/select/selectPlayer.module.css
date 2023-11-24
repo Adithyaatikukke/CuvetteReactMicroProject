@@ -1,0 +1,70 @@
+.chooseComp {
+    width: 20rem;
+    height: 8rem;
+    margin-top: 2rem;
+    align-self: center;
+    background-color: #1f3540;
+    border-radius: 0.625rem;
+    padding: 0 1.2rem;
+    width: 80%;
+  }
+  
+  .crossButton,
+  .circleButton {
+    background-color: #192a32;
+    width: 50%;
+    padding: 0.2rem 1.2rem;
+    border-radius: 0.625rem;
+  
+    cursor: pointer;
+    border: none;
+  }
+  .circleButton svg > path {
+    fill: #d9d9d9;
+    stroke: #d9d9d9;
+    stroke-width: 0.1rem;
+  }
+  .circleButton:hover {
+    background-color: #d9d9d9;
+  }
+  .circleButton:hover svg > path {
+    fill: #192a32;
+    stroke: #192a32;
+    stroke-width: 0.1rem;
+  }
+  .crossButton:hover {
+    background-color: #d9d9d9;
+  }
+  
+  .active {
+    background-color: #d9d9d9;
+  }
+  .circleButton.active svg > path {
+    fill: #192a32;
+    stroke: #192a32;
+    stroke-width: 0.1rem;
+  }
+  .crossButton.active svg > path {
+    stroke-width: 0.4rem;
+    stroke: #192a32;
+  }
+  
+  .crossButton:hover svg > path {
+    stroke-width: 0.4rem;
+    stroke: #192a32;
+  }
+  
+  .heading {
+    font-size: 1.375rem;
+    color: #ffffff;
+    margin: 0.8rem auto;
+    text-align: center;
+  }
+  
+  .buttonCont {
+    background-color: #192a32;
+    display: flex;
+    gap: 1.2rem;
+    border-radius: 0.625rem;
+    padding: 0.6rem;
+  }

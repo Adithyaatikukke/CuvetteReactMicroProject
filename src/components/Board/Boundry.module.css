@@ -1,0 +1,66 @@
+.gamePlay {
+    /* position: relative; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 12rem;
+    justify-items: center;
+    row-gap: 1.2rem;
+  }
+  .signs {
+    display: flex;
+    gap: 0.8rem;
+  }
+  
+  .turns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.6rem;
+    width: 65%;
+    padding: 0.4rem 0;
+    border-radius: 4px;
+    background-color: #1f3540;
+  }
+  
+  .turns span {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    color: #a8bec9;
+  }
+  .turns svg {
+    width: 18px;
+    height: 18px;
+  }
+  .turns svg > path {
+    fill: #acc2cd;
+  }
+  .refresh {
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: #a7bdc8;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .yourScore,
+  .tiesScore,
+  .cpuScore {
+    width: 5rem;
+    height: 2.5rem;
+    display: flex;
+    border-radius: 5px;
+    flex-direction: column;
+    font-size: 0.8rem;
+    justify-content: space-around;
+    font-weight: 600;
+    align-items: center;
+  }
+  .yourScore {
+    background-color: #31c4be;
+  }
+  .tiesScore {
+    background-color: #a8bec9;
+  }
+  .cpuScore {
+    background-color: #f2b237;
+  }

@@ -1,0 +1,29 @@
+.square,
+.cross,
+.circle {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 5.5rem;
+	height: 5.5rem;
+	border-radius: 10px;
+	cursor: pointer;
+	background-color: #1f3540;
+}
+
+.cross svg,
+.circle svg {
+	width: 3rem;
+	/* */
+	height: 3rem;
+}
+
+.circle svg > path {
+	fill: #f7b336;
+	stroke: #f7b336;
+	stroke-width: 0.1rem;
+}
+.cross svg > path {
+	stroke-width: 0.4rem;
+	stroke: #32c4c3;
+}

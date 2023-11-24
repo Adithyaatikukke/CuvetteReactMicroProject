@@ -1,0 +1,69 @@
+.declaration {
+    text-align: center;
+    text-transform: uppercase;
+    color: #acc2cd;
+  }
+  .cross,
+  .circle,
+  .tie {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    margin-top: 1.2rem;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #f2b237;
+  }
+  .tie {
+    justify-content: center;
+  }
+  .circle span,
+  .cross span {
+    margin-left: 1rem;
+  }
+  .win {
+    width: 100%;
+    height: 100%;
+    padding: 2.4rem 3.2rem;
+  }
+  
+  .cross svg > path {
+    stroke-width: 0.5rem;
+    stroke: #32c4c3;
+  }
+  .circle svg {
+    width: 2rem;
+    height: 2rem;
+  }
+  .circle svg > path {
+    fill: #f7b336;
+    stroke: #f7b336;
+    stroke-width: 0.1rem;
+  }
+  
+  .buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1.2rem;
+  }
+  .quit,
+  .playAgain {
+    width: 7rem;
+    height: 2rem;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: 700;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #f2b237;
+    color: #192a32;
+  }
+  
+  .playAgain {
+    background-color: #31c4be;
+    color: #192a32;
+  }

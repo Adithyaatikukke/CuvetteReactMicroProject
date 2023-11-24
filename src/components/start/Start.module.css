@@ -1,0 +1,27 @@
+.primary,
+.secondary,
+.tertiary {
+	width: 80%;
+	align-self: center;
+	padding: 0.6rem 0;
+	margin-top: 2.4rem;
+	background-color: #f2b237;
+	border: none;
+	color: #192a32;
+	font-weight: 800;
+	border-radius: 0.4rem;
+	cursor: pointer;
+}
+
+.secondary {
+	background-color: #32c4c3;
+	margin-top: 1rem;
+}
+
+.tertiary {
+	width: 60%;
+	margin-top: 2.8rem;
+	font-size: 1rem;
+
+	padding: 0.4rem 0;
+}
